@@ -1,5 +1,5 @@
 # Spark_SimilarityDocs
-Use PySpark to implement the MapReduce algorithm presented in the paper "[Pairwise Document Similarity in Large Collections with MapReduce]" (https://www.aclweb.org/anthology/P/P08/P08-2067.pdf) by Elsayed T., et al. to compute the similarity between two documents. 
+Use PySpark to implement the MapReduce algorithm presented in the paper [Pairwise Document Similarity in Large Collections with MapReduce](https://www.aclweb.org/anthology/P/P08/P08-2067.pdf) by Elsayed T., et al. to compute the similarity between two documents. 
 
 Normally, there will be a large number of words existing in a large document collection. However, the most popular words play more important role than the less popular ones. In addition, less words will definitely save some storage spaces and redcue the running time. Thus, the first step is to extract the 1000 most popular words. 
 ![1000 most popular words](https://github.com/duongnb09/Spark_SimilarityDocs/blob/master/docs/images/word_count.png "Top 1000 words")
